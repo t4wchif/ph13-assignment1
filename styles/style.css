@@ -186,7 +186,7 @@ section .info-text p {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-top: 44px;
+  margin: 44px 120px 0 120px;
   padding: 24px;
 }
 .info-cards .card1,
@@ -231,4 +231,52 @@ section .info-text p {
   font-weight: 400;
   color: #6b7280;
   margin: 0 20px 0 20px;
+}
+.solution-section {
+  width: 1920px;
+  height: 600px;
+  display: flex;
+}
+.solution-section .solution-image {
+  width: 600px;
+  height: 600px;
+  margin: 120px 60px 120px 200px;
+}
+.solution-section .solution-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 60px;
+}
+.solution-section .solution-text h6 {
+  color: #30b868;
+  font-size: 16px;
+  font-weight: medium;
+  margin: 131px 0 16px 0px;
+}
+.solution-text h1 {
+  font-size: 48px;
+  line-height: auto;
+  font-weight: bold;
+}
+.solution-text p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 16px 0 40px 0px;
+}
+.solution-text ul {
+  list-style: none;
+  font-size: 16px;
+  font-weight: medium;
+  margin-top: 20px;
+  text-align: justify;
+}
+.solution-text ul li::before {
+  content: url(../assets/CheckCircle.png);
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 7.87px;
 }
