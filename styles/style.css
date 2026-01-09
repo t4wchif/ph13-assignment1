@@ -328,3 +328,39 @@ section .info-text p {
   background-repeat: no-repeat;
   margin-left: 8px;
 }
+.footeri {
+  background-color: #111827;
+  width: 1920px;
+  height: 348px;
+  margin-top: 120px;
+}
+.logo-social {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo {
+  margin: 120px;
+}
+.icons {
+  margin: 120px;
+}
+.icons h2 {
+  font-size: 20px;
+  font-weight: medium;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.divider {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin: 10px 0;
+}
+.footeri .footer-bottom p {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  font-size: 16px;
+  align-items: center;
+  margin-bottom: 30px;
+}
