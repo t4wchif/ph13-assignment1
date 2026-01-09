@@ -280,3 +280,51 @@ section .info-text p {
   background-repeat: no-repeat;
   margin-right: 7.87px;
 }
+#challenge {
+  padding-top: 220px;
+}
+#challenge .challenge-heading {
+  width: 1520px;
+  margin: 0 200px 0 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f6f2;
+  padding: 40px 82px;
+}
+.challenge-heading h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.challenge-heading p {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  text-align: center;
+  line-height: 20px;
+}
+.challenge-heading .btn3 {
+  background-color: #30b868;
+  color: #ffffff;
+  border: none;
+  padding: 12.5px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.btn3:hover {
+  background-color: #28a75b;
+}
+.btn3::after {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url(../assets/ArrowRight.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 8px;
+}
